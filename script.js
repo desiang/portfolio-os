@@ -65,7 +65,7 @@ const resumeData = {
             description: [
                 "Interactive web simulator built with HTML, CSS, JavaScript & Chart.js",
                 "Live: https://fcfs-birondo.vercel.app/",
-                "GitHub: github.com/johndoe/fcfs-simulator (add star count if >50)"
+                "GitHub:https://github.com/desiang/portfolio-os"
             ]
         },
         {
@@ -182,7 +182,7 @@ function buildResume() {
 
     // Add project image
     const fcfsImage = createElement('img', 'project-image');
-    fcfsImage.src = 'fcfs.jpeg.png'; // Replace with actual screenshot filename
+    fcfsImage.src = 'fcfs.jpeg'; 
     fcfsImage.alt = 'FCFS CPU Scheduling Visualizer Preview';
     fcfsCard.appendChild(fcfsImage);
 
