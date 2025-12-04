@@ -180,7 +180,7 @@ function buildResume() {
     const fcfsTitle = createElement('h3', '', 'FCFS CPU Scheduling Visualizer');
     fcfsCard.appendChild(fcfsTitle);
 
-    // Add project image
+    // project image
     const fcfsImage = createElement('img', 'project-image');
     fcfsImage.src = 'fcfs.jpeg'; 
     fcfsImage.alt = 'FCFS CPU Scheduling Visualizer Preview';
