@@ -182,7 +182,7 @@ function buildResume() {
 
     // Add project image
     const fcfsImage = createElement('img', 'project-image');
-    fcfsImage.src = 'FCFS.png'; // Replace with actual screenshot filename
+    fcfsImage.src = 'fcfs.jpeg.png'; // Replace with actual screenshot filename
     fcfsImage.alt = 'FCFS CPU Scheduling Visualizer Preview';
     fcfsCard.appendChild(fcfsImage);
 
